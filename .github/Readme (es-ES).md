@@ -23,7 +23,7 @@ limitations under the License.
 <!----DESCRIPCION---->
 <!------------------->
 <!--Archivo "Readme.md" para el repositorio-->
-<!--de GitHub "Xxx".-->
+<!--de GitHub "Uninstall-Microsoft-Edge".-->
 
 
 
@@ -38,7 +38,7 @@ limitations under the License.
 
 
 <!---2 Nombre del proyecto--->
-# *XXX*
+# *Uninstall-Microsoft-Edge*
 ---
 
 
@@ -53,32 +53,34 @@ limitations under the License.
 
 <!---4 Descripción del proyecto-->
 ## Descripción del proyecto
-**`Xxx`** es un xxx para xxx.
+**`Uninstall-Microsoft-Edge`** es un proyecto simple que permite desinstalar de forma sencilla el navegador `Microsoft Edge`, eliminando el bloqueo que el Sistema Operativo `Microsoft Windows` emplea para evitar su desinstalación, dado por las siguientes `Claves de Registro` del `Registro de Windows`:
+```
+HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge Update
+HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+```
 
 
 <!---5 Requisitos de uso-->
 ## Requisitos
-+  Sistema Operativo `Xxx`.
-+  Xxx.
++  Cualquier versión del Sistema Operativo `Microsoft Windows` con el navegador `Microsoft Edge` instalado.
++  Acceso a los permisos de usuario `Administrador`.
 
 
 <!---6 Proceso de instalación-->
-<!---6.1 Microsoft Windows--->
 ## Instalación
-**`Microsoft Windows`**
-1. Descargar XXX desde <https://www.X_X_X.com>.
-2. Xxx.
-<!---6.2 GNU/Linux--->
-**`GNU/Linux`**
-1. Descargar XXX desde <https://www.X_X_X.com>.
-2. Xxx.
+**`Microsoft Windows`**\
+No se requiere ningún proceso de instalación.
 
 
 <!---7 Instrucciones de uso-->
 ## Uso
-1. Abrir `Xxx`.
-2. Ejecutar `Xxx`.
-3. Xxx.
+1. Descargar el repositorio actual y extraer el archivo comprimido, o clonar el repositorio actual ejecutando en un terminal con `Git` instalado el siguiente comando:
+```
+git clone https://github.com/Damian-Lorente/Uninstall-Microsoft-Edge.git
+```
+2. Ir al directorio raíz del repositorio descargado o clonado, y ejecutar `~/Src/es-ES/Uninstall Microsoft Edge (es-ES).bat` con permisos de usuario `Administrador`, pudiendo obtener dichos permisos al hacer click derecho en el archivo `~/Src/es-ES/Uninstall Microsoft Edge (es-ES).bat` y pulsar en `Ejecutar como administrador`.
+3. Seguir las instrucciones del programa.
 
 
 <!---8 Licencia de uso-->
