@@ -38,7 +38,7 @@ limitations under the License.
 
 
 <!---2 Name of the project--->
-# *XXX*
+# *Uninstall-Microsoft-Edge*
 ---
 
 
@@ -53,32 +53,35 @@ limitations under the License.
 
 <!---4 Project description--->
 ## Project Description
-**`Xxx`** is a xxx for xxx.
+**`Uninstall-Microsoft-Edge`** is a simple project which facilitates the uninstalling process of `Microsoft Edge` browser, deleting the blockage that `Microsoft Windows` OS uses to avoid its uninstalling, given by the following `Registry Keys` from `Windows Registry`:
+```
+HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge Update
+HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+```
 
 
 <!---5 Requisites for use-->
 ## Requisites
-+  `Xxx` OS.
-+  Xxx.
++  Any version of `Microsoft Windows` OS with `Microsoft Edge` installed.
++  Access to `Administrator` user privileges.
 
 
 <!---6 Installation process--->
-<!---6.1 Microsoft Windows-->
 ## Installation
-**`Microsoft Windows`**
-1. Download XXX from <https://www.X_X_X.com>.
-2. Xxx.
-<!---6.2 GNU/Linux--->
-**`GNU/Linux`**
-1. Download XXX from <https://www.X_X_X.com>.
-2. Xxx.
+**`Microsoft Windows`**\
+No installation process is required.
 
 
 <!---7 Usage instructions-->
 ## Usage
-1. Open `Xxx`.
-2. Run `Xxx`.
-3. Xxx.
+1. Download the current repository and extract the compressed file, or clone the current repository running the following command under a terminar with `Git` installed:
+
+```
+git clone https://github.com/Damian-Lorente/Uninstall-Microsoft-Edge.git
+```
+2. Move to the root of the downloaded or cloned repository, and run `~/Src/en-US/Uninstall Microsoft Edge.bat` with `Administrador` user privileges, obtaining those privileges by right clicking on the file `~/Src/en-US/Uninstall Microsoft Edge.bat` and selecting `Run as administrator`.
+3. Follow program instructions.
 
 
 <!---8 License of use-->
